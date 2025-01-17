@@ -1,5 +1,5 @@
 let listaNumeroSorteados = [];
-let numeroLimite = 100;
+let numeroLimite = 10;
 let numeroSecreto = gerarNumeroAleatorio();
 let tentativas = 1;
 
@@ -13,7 +13,7 @@ function exibirTextoTela(tag, texto) {
 function textoInicial(){
 
     exibirTextoTela("h1", "Jogo do número secreto");
-    exibirTextoTela("p", "Escolha um numero entre 1 e 100");
+    exibirTextoTela("p", "Escolha um numero entre 1 e 10");
 
 }
 
